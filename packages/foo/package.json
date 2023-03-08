@@ -1,0 +1,14 @@
+{
+  "name": "@sjl-library/foo",
+  "version": "1.0.0",
+  "description": "示例组件",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sjl-library/utils": "workspace:^1.0.0"
+  }
+}

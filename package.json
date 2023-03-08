@@ -1,0 +1,46 @@
+{
+  "name": "sjl-library",
+  "version": "1.0.0",
+  "description": "改组件库用于个人学习",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shenjilina/sjl-library.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shenjilina/sjl-library/issues"
+  },
+  "homepage": "https://github.com/shenjilina/sjl-library#readme",
+  "workspaces": [
+    "packages/*",
+    "cli",
+    "docs",
+    "example"
+  ],
+  "dependencies": {
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.2",
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
+    "@typescript-eslint/parser": "^5.54.0",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vitejs/plugin-vue-jsx": "^3.0.0",
+    "eslint": "^8.35.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-vue": "^9.9.0",
+    "sass": "^1.58.3",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.4",
+    "vite-plugin-eslint": "^1.8.1",
+    "vue-tsc": "^1.2.0"
+  }
+}
